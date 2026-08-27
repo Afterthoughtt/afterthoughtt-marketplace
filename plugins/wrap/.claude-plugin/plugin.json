@@ -1,0 +1,6 @@
+{
+  "name": "wrap",
+  "description": "End-of-session closeout: commit, push, and print a paste-ready handoff",
+  "version": "1.0.0",
+  "author": { "name": "Afterthoughtt" }
+}

@@ -1,0 +1,6 @@
+{
+  "name": "discernment-nudge",
+  "description": "Appends short follow-up questions after substantive answers to help check facts and reasoning",
+  "version": "1.0.0",
+  "author": { "name": "Anthropic" }
+}

@@ -1,0 +1,6 @@
+{
+  "name": "mcp-builder",
+  "description": "Guidance for building MCP servers",
+  "version": "1.0.0",
+  "author": { "name": "Anthropic" }
+}

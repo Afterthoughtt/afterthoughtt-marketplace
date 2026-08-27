@@ -1,6 +1,8 @@
 # afterthoughtt-marketplace
 
-Personal Claude Code plugin marketplace. Every entry except `wrap` is a pointer at its upstream repo (Anthropic's official and community plugin repos, `anthropics/skills`, `cursor/plugins`), so installed plugins auto-update from their original sources. `wrap` lives in this repo.
+Personal Claude Code plugin marketplace. All plugin content is vendored into `plugins/` (copied from Anthropic's official and community plugin repos, `anthropics/skills`, and `cursor/plugins`) so the marketplace also works in the Claude Desktop app, which only loads plugins stored inside the marketplace repo itself. `wrap` is original to this repo.
+
+A weekly GitHub Action (`.github/workflows/sync-plugins.yml`) re-copies the vendored plugins from their upstream repos; run `scripts/sync-plugins.sh` to do it manually.
 
 ## Install
 
@@ -35,7 +37,7 @@ Or pick from the list interactively with `/plugin` → Discover.
 
 ## Updating
 
-- Installed plugins refresh from their upstreams automatically at startup.
+- The weekly sync Action commits upstream changes into this repo; installed plugins pick them up when the marketplace refreshes at startup.
 - A newly added catalog entry needs a one-time `claude plugin install <name>@afterthoughtt-marketplace` per machine.
 
 ## Adding entries
