@@ -1,6 +1,6 @@
 ---
 name: eli5
-description: Explain a topic like I'm a 5 year old. Use when the user types the /eli5 command with a topic, or asks for a dead-simple picture explainer of how something works.
+description: Explain a topic like I'm a 5 year old. Use when the user types the /eli5 command with a topic or asks for a dead-simple picture explainer of how something works.
 ---
 
 # eli5
