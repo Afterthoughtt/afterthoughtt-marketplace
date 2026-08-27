@@ -7,6 +7,22 @@
   },
   "plugins": [
     {
+      "name": "canvas-design",
+      "source": {
+        "source": "git",
+        "url": "https://github.com/anthropics/skills.git"
+      },
+      "strict": false,
+      "skills": [
+        "./skills/canvas-design"
+      ],
+      "description": "Create beautiful visual art in .png and .pdf documents using design principles",
+      "author": {
+        "name": "Anthropic"
+      },
+      "category": "design"
+    },
+    {
       "name": "claude-code-setup",
       "source": {
         "source": "git-subdir",
@@ -81,6 +97,22 @@
       "homepage": "https://github.com/anthropics/claude-plugins-public/tree/main/external_plugins/context7"
     },
     {
+      "name": "discernment-nudge",
+      "source": {
+        "source": "git",
+        "url": "https://github.com/anthropics/skills.git"
+      },
+      "strict": false,
+      "skills": [
+        "./skills/discernment-nudge"
+      ],
+      "description": "Appends short follow-up questions after substantive answers to help check facts and reasoning",
+      "author": {
+        "name": "Anthropic"
+      },
+      "category": "productivity"
+    },
+    {
       "name": "frontend-design",
       "source": {
         "source": "git-subdir",
@@ -105,6 +137,22 @@
       "description": "Official GitHub MCP server for repository management. Create issues, manage pull requests, review code, search repositories, and interact with GitHub's full API directly from Claude Code.",
       "category": "productivity",
       "homepage": "https://github.com/anthropics/claude-plugins-public/tree/main/external_plugins/github"
+    },
+    {
+      "name": "mcp-builder",
+      "source": {
+        "source": "git",
+        "url": "https://github.com/anthropics/skills.git"
+      },
+      "strict": false,
+      "skills": [
+        "./skills/mcp-builder"
+      ],
+      "description": "Guidance for building MCP servers",
+      "author": {
+        "name": "Anthropic"
+      },
+      "category": "development"
     },
     {
       "name": "security-guidance",
