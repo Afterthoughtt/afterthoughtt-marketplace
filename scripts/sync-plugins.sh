@@ -46,4 +46,9 @@ for s in bro blast-radius unslop technical-writing; do
   copy_dir "$tmp/cursor/pstack/skills/$s" "plugins/pstack-picks/skills/$s"
 done
 
+# Post-copy fixups: claude.ai's marketplace sync silently drops skills whose
+# frontmatter description contains <placeholders> or URLs (claude-code#82749)
+sed -i.bak 's|/eli5 <topic>|the /eli5 command with a topic|' plugins/eli5/skills/eli5/SKILL.md
+rm -f plugins/eli5/skills/eli5/SKILL.md.bak
+
 echo "Sync complete."
