@@ -132,6 +132,17 @@
       "category": "productivity"
     },
     {
+      "name": "eli5",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/anthropics/claude-plugins-community.git",
+        "path": "eli5"
+      },
+      "strict": false,
+      "description": "Explain any topic like I'm 5: a dead-simple HTML picture explainer with big visuals and few words. Use /eli5 <topic>.",
+      "category": "learning"
+    },
+    {
       "name": "frontend-design",
       "source": {
         "source": "git-subdir",
@@ -172,6 +183,25 @@
         "name": "Anthropic"
       },
       "category": "development"
+    },
+    {
+      "name": "pstack-picks",
+      "source": {
+        "source": "github",
+        "repo": "cursor/plugins"
+      },
+      "strict": false,
+      "skills": [
+        "./pstack/skills/bro",
+        "./pstack/skills/blast-radius",
+        "./pstack/skills/unslop",
+        "./pstack/skills/technical-writing"
+      ],
+      "description": "Curated pstack skills: bro, blast-radius, unslop, technical-writing",
+      "author": {
+        "name": "Cursor"
+      },
+      "category": "productivity"
     },
     {
       "name": "security-guidance",
