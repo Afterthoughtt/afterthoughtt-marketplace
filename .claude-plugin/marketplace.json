@@ -93,6 +93,13 @@
       "homepage": "https://github.com/anthropics/claude-plugins-official/tree/main/external_plugins/github"
     },
     {
+      "name": "interrogate",
+      "source": "./plugins/interrogate",
+      "description": "Structured brainstorm interview that turns an unclear idea, plan, or decision into a stress-tested working brief",
+      "author": { "name": "Afterthoughtt" },
+      "category": "productivity"
+    },
+    {
       "name": "mcp-builder",
       "source": "./plugins/mcp-builder",
       "description": "Guidance for building MCP servers",

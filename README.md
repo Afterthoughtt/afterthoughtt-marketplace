@@ -26,6 +26,7 @@ claude plugin install document-skills@afterthoughtt-marketplace
 claude plugin install eli5@afterthoughtt-marketplace
 claude plugin install frontend-design@afterthoughtt-marketplace
 claude plugin install github@afterthoughtt-marketplace
+claude plugin install interrogate@afterthoughtt-marketplace
 claude plugin install mcp-builder@afterthoughtt-marketplace
 claude plugin install pstack-picks@afterthoughtt-marketplace
 claude plugin install security-guidance@afterthoughtt-marketplace
