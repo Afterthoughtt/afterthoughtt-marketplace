@@ -113,6 +113,25 @@
       "category": "productivity"
     },
     {
+      "name": "document-skills",
+      "source": {
+        "source": "github",
+        "repo": "anthropics/skills"
+      },
+      "strict": false,
+      "skills": [
+        "./skills/xlsx",
+        "./skills/docx",
+        "./skills/pptx",
+        "./skills/pdf"
+      ],
+      "description": "Document processing suite: Excel, Word, PowerPoint, and PDF",
+      "author": {
+        "name": "Anthropic"
+      },
+      "category": "productivity"
+    },
+    {
       "name": "frontend-design",
       "source": {
         "source": "git-subdir",
@@ -183,6 +202,15 @@
       },
       "category": "development",
       "homepage": "https://github.com/anthropics/claude-plugins-official/tree/main/plugins/skill-creator"
+    },
+    {
+      "name": "wrap",
+      "source": "./plugins/wrap",
+      "description": "End-of-session closeout: commit, push, and print a paste-ready handoff",
+      "author": {
+        "name": "Afterthoughtt"
+      },
+      "category": "productivity"
     }
   ]
 }
