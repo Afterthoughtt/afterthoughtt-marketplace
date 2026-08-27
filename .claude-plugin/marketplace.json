@@ -9,8 +9,8 @@
     {
       "name": "canvas-design",
       "source": {
-        "source": "git",
-        "url": "https://github.com/anthropics/skills.git"
+        "source": "github",
+        "repo": "anthropics/skills"
       },
       "strict": false,
       "skills": [
@@ -99,8 +99,8 @@
     {
       "name": "discernment-nudge",
       "source": {
-        "source": "git",
-        "url": "https://github.com/anthropics/skills.git"
+        "source": "github",
+        "repo": "anthropics/skills"
       },
       "strict": false,
       "skills": [
@@ -141,8 +141,8 @@
     {
       "name": "mcp-builder",
       "source": {
-        "source": "git",
-        "url": "https://github.com/anthropics/skills.git"
+        "source": "github",
+        "repo": "anthropics/skills"
       },
       "strict": false,
       "skills": [
