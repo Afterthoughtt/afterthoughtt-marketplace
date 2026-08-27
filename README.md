@@ -10,25 +10,16 @@ Add the marketplace (once per machine):
 /plugin marketplace add Afterthoughtt/afterthoughtt-marketplace
 ```
 
-Then install everything:
+Then install everything — one paste (macOS/Linux):
 
+```bash
+for p in canvas-design claude-code-setup claude-md-management code-review code-simplifier context7 discernment-nudge document-skills eli5 frontend-design github mcp-builder pstack-picks security-guidance skill-creator wrap; do claude plugin install "$p@afterthoughtt-marketplace"; done
 ```
-claude plugin install canvas-design@afterthoughtt-marketplace
-claude plugin install claude-code-setup@afterthoughtt-marketplace
-claude plugin install claude-md-management@afterthoughtt-marketplace
-claude plugin install code-review@afterthoughtt-marketplace
-claude plugin install code-simplifier@afterthoughtt-marketplace
-claude plugin install context7@afterthoughtt-marketplace
-claude plugin install discernment-nudge@afterthoughtt-marketplace
-claude plugin install document-skills@afterthoughtt-marketplace
-claude plugin install eli5@afterthoughtt-marketplace
-claude plugin install frontend-design@afterthoughtt-marketplace
-claude plugin install github@afterthoughtt-marketplace
-claude plugin install mcp-builder@afterthoughtt-marketplace
-claude plugin install pstack-picks@afterthoughtt-marketplace
-claude plugin install security-guidance@afterthoughtt-marketplace
-claude plugin install skill-creator@afterthoughtt-marketplace
-claude plugin install wrap@afterthoughtt-marketplace
+
+PowerShell (Windows):
+
+```powershell
+"canvas-design","claude-code-setup","claude-md-management","code-review","code-simplifier","context7","discernment-nudge","document-skills","eli5","frontend-design","github","mcp-builder","pstack-picks","security-guidance","skill-creator","wrap" | ForEach-Object { claude plugin install "$_@afterthoughtt-marketplace" }
 ```
 
 Or pick from the list interactively with `/plugin` → Discover.
